@@ -36,12 +36,13 @@ An adapter advertises operations, not a generic "supported" flag:
     "gate_start": false,
     "start": true,
     "read_status": true,
+    "deliver_human_answer": false,
     "continue_session": false
   }
 }
 ```
 
-The declaration describes a tested integration mode, not every possible feature of the host. `gate_start: false` means Relevo may recommend deferral but cannot enforce it against a task started directly in that host. `continue_session: false` means a person may need to return to the host UI. Capabilities can change by version, configuration, or session type.
+The declaration describes a tested integration mode, not every possible feature of the host. `gate_start: false` means Relevo may recommend deferral but cannot enforce it against a task started directly in that host. `deliver_human_answer: false` means an observed question cannot be answered through the adapter; the person must return to the host UI. `continue_session: false` means a person may need to return to the host UI to continue work. These operations are independent. Capabilities can change by version, configuration, or session type.
 
 ## Events
 

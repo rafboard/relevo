@@ -8,6 +8,8 @@ Relevo is **not another AI assistant or coding harness**. It is intended to sit 
 
 > **Project status:** design and documentation only. There is no working implementation, installable package, or supported integration yet. The interfaces below are proposals, not promises about any host's current capabilities.
 
+**Current research priority:** test a reliable, human-attributed decision handoff between existing hosts. Admission planning is a harder second experiment, not a feature we can promise across all tools. Existing boards, schedulers, and multi-client dashboards already cover much of the original sketch; see the [gap analysis](docs/gap-analysis.md).
+
 ## The idea in one minute
 
 1. You record a few tasks, priorities, deadlines, and the next time you expect to be available.
@@ -46,6 +48,7 @@ Adapters declare what they can actually do. An observe-only adapter can recommen
 - [Adapter model and integration limits](docs/adapters.md)
 - [Interface proposals and recommended starting point](docs/interface.md)
 - [What Relevo would add beyond existing tools](docs/differentiation.md)
+- [Detailed gap analysis and tests](docs/gap-analysis.md)
 - [Proposed milestones and validation](docs/roadmap.md)
 - [How to contribute](CONTRIBUTING.md)
 
