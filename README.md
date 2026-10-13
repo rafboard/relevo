@@ -44,6 +44,7 @@ Adapters declare what they can actually do. An observe-only adapter can recommen
 - [Architecture and trust boundaries](docs/architecture.md)
 - [Draft task and event contract](docs/protocol.md)
 - [Adapter model and integration limits](docs/adapters.md)
+- [Interface proposals and recommended starting point](docs/interface.md)
 - [Proposed milestones and validation](docs/roadmap.md)
 - [How to contribute](CONTRIBUTING.md)
 

@@ -34,7 +34,7 @@ The core never infers a safe pause/resume feature from a cancel or interrupt ope
 
 ### Human-facing surfaces
 
-The initial surface should be a small CLI plus links or commands inside existing tools. An optional MCP server can expose task proposals, status, and decision requests to models and clients that support MCP. MCP is **not** assumed to provide a host lifecycle gate. A separate dashboard is unnecessary for the first version.
+The [interface proposal](interface.md) recommends a small CLI plus links or commands inside existing tools. An optional MCP server can expose task proposals, status, and decision requests to models and clients that support MCP. MCP is **not** assumed to provide a host lifecycle gate or to authenticate a human decision. A separate dashboard is unnecessary for the first version.
 
 ## Trust boundaries
 
