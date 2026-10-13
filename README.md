@@ -45,6 +45,7 @@ Adapters declare what they can actually do. An observe-only adapter can recommen
 - [Draft task and event contract](docs/protocol.md)
 - [Adapter model and integration limits](docs/adapters.md)
 - [Interface proposals and recommended starting point](docs/interface.md)
+- [What Relevo would add beyond existing tools](docs/differentiation.md)
 - [Proposed milestones and validation](docs/roadmap.md)
 - [How to contribute](CONTRIBUTING.md)
 
